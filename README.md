@@ -11,4 +11,4 @@ Data is stored in cohomology_N.csv, with entries
 
 level, charges (5 entries), degree, N, all, multi-graviton
 
-A Mathematica notebook is provided for reading the data.
+A Mathematica notebook is provided for reading the data

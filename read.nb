@@ -1,0 +1,152 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4803,        144]
+NotebookOptionsPosition[      4047,        124]
+NotebookOutlinePosition[      4443,        140]
+CellTagsIndexPosition[      4400,        137]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Load", " ", "data", " ", "first"}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"Do", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"cohomology", "[", "NN", "]"}], "=", 
+      RowBox[{"Import", "[", 
+       RowBox[{
+        RowBox[{"NotebookDirectory", "[", "]"}], "<>", "\"\<cohomology_\>\"", 
+        "<>", 
+        RowBox[{"ToString", "[", "NN", "]"}], "<>", "\"\<.csv\>\""}], "]"}]}],
+      ";"}], "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"NN", ",", "2", ",", "4"}], "}"}]}], "\[IndentingNewLine]", 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.871843981562728*^9, 3.871844021412464*^9}, {
+  3.871844300547426*^9, 3.871844305441814*^9}},
+ CellLabel->
+  "In[149]:=",ExpressionUUID->"c60f7b66-59f5-4fe8-afbb-c7f138d1fc76"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"NumAllStates", "[", 
+    RowBox[{"NN_", ",", "charges_", ",", "degree_"}], "]"}], " ", ":=", " ", 
+   RowBox[{
+    RowBox[{"Select", "[", 
+     RowBox[{
+      RowBox[{"cohomology", "[", "NN", "]"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"#", "[", 
+          RowBox[{"[", 
+           RowBox[{"2", ";;", "6"}], "]"}], "]"}], "==", "charges"}], "&&", 
+        RowBox[{
+         RowBox[{"#", "[", 
+          RowBox[{"[", "7", "]"}], "]"}], "==", "degree"}]}], "&"}]}], "]"}], 
+    "[", 
+    RowBox[{"[", 
+     RowBox[{"1", ",", "9"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"NumMultiGravitonStates", "[", 
+    RowBox[{"NN_", ",", "charges_", ",", "degree_"}], "]"}], " ", ":=", " ", 
+   RowBox[{
+    RowBox[{"Select", "[", 
+     RowBox[{
+      RowBox[{"cohomology", "[", "NN", "]"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"#", "[", 
+          RowBox[{"[", 
+           RowBox[{"2", ";;", "6"}], "]"}], "]"}], "==", "charges"}], "&&", 
+        RowBox[{
+         RowBox[{"#", "[", 
+          RowBox[{"[", "7", "]"}], "]"}], "==", "degree"}]}], "&"}]}], "]"}], 
+    "[", 
+    RowBox[{"[", 
+     RowBox[{"1", ",", "10"}], "]"}], "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.871844070851568*^9, 3.871844263581242*^9}},
+ CellLabel->
+  "In[150]:=",ExpressionUUID->"afe826de-75c2-44af-a355-03e37e10e2a7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Usage", " ", "example"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"NumAllStates", "[", 
+    RowBox[{"2", ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "4", ",", "4", ",", "4"}], "}"}], ",", 
+     "7"}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{"NumMultiGravitonStates", "[", 
+    RowBox[{"2", ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "4", ",", "4", ",", "4"}], "}"}], ",", 
+     "7"}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.871844203375235*^9, 3.871844218460442*^9}, {
+  3.871844277517478*^9, 3.8718442975740833`*^9}},
+ CellLabel->
+  "In[152]:=",ExpressionUUID->"df88e7a5-f3e0-4241-9426-f502367c19e7"],
+
+Cell[BoxData["1"], "Output",
+ CellChangeTimes->{{3.8718442123203907`*^9, 3.871844278015366*^9}, 
+   3.871844310901622*^9},
+ CellLabel->
+  "Out[152]=",ExpressionUUID->"309210d2-546e-4e9c-9f46-6eb843982294"],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{{3.8718442123203907`*^9, 3.871844278015366*^9}, 
+   3.871844310909696*^9},
+ CellLabel->
+  "Out[153]=",ExpressionUUID->"fff749ee-2256-45e3-a256-47b70ac7faba"]
+}, Open  ]]
+},
+WindowSize->{808, 747},
+WindowMargins->{{12, Automatic}, {Automatic, 24}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (December 2, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"178309e0-88ef-49d0-9a3f-fe47c2ba39ce"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 865, 22, 136, "Input",ExpressionUUID->"c60f7b66-59f5-4fe8-afbb-c7f138d1fc76"],
+Cell[1426, 44, 1449, 43, 94, "Input",ExpressionUUID->"afe826de-75c2-44af-a355-03e37e10e2a7"],
+Cell[CellGroupData[{
+Cell[2900, 91, 715, 18, 73, "Input",ExpressionUUID->"df88e7a5-f3e0-4241-9426-f502367c19e7"],
+Cell[3618, 111, 205, 4, 34, "Output",ExpressionUUID->"309210d2-546e-4e9c-9f46-6eb843982294"],
+Cell[3826, 117, 205, 4, 34, "Output",ExpressionUUID->"fff749ee-2256-45e3-a256-47b70ac7faba"]
+}, Open  ]]
+}
+]
+*)
+
