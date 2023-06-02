@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    580690,      14593]
-NotebookOptionsPosition[    490370,      13546]
-NotebookOutlinePosition[    490830,      13564]
-CellTagsIndexPosition[    490787,      13561]
+NotebookDataLength[    580988,      14598]
+NotebookOptionsPosition[    490668,      13551]
+NotebookOutlinePosition[    491128,      13569]
+CellTagsIndexPosition[    491085,      13566]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -13349,7 +13349,7 @@ Cell[BoxData[
     RowBox[{"sector", "=", 
      RowBox[{"Select", "[", 
       RowBox[{
-       RowBox[{"ad", "[", "3", "]"}], ",", 
+       RowBox[{"adAll", "[", "2", "]"}], ",", 
        RowBox[{
         RowBox[{"(", 
          RowBox[{
@@ -13479,25 +13479,30 @@ Cell[BoxData[
    3.894679513360693*^9, 3.894679514698986*^9}, {3.8946796087258883`*^9, 
    3.894679619173448*^9}, 3.894679651126108*^9, {3.894679681219013*^9, 
    3.894679681487314*^9}, 3.894679755148745*^9, {3.8946801124639273`*^9, 
-   3.894680114500423*^9}},
+   3.894680114500423*^9}, {3.894680257893676*^9, 3.8946802580291567`*^9}, {
+   3.894680394538733*^9, 3.894680408865238*^9}, {3.89468092311688*^9, 
+   3.8946809233293333`*^9}},
  CellLabel->
-  "In[161]:=",ExpressionUUID->"b96913e8-aeec-4910-93d6-41d2250c7669"],
+  "In[169]:=",ExpressionUUID->"b96913e8-aeec-4910-93d6-41d2250c7669"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
    RowBox[{"{", 
-    RowBox[{"3", ",", "1.39872`"}], "}"}], ",", 
+    RowBox[{"3", ",", "2.5`"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"4", ",", "1.61465`"}], "}"}], ",", 
+    RowBox[{"5", ",", "3.5`"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"5", ",", "1.39834`"}], "}"}]}], "}"}]], "Output",
+    RowBox[{"7", ",", "4.5`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"9", ",", "5.5`"}], "}"}]}], "}"}]], "Output",
  CellChangeTimes->{{3.89467734771096*^9, 3.894677369367873*^9}, 
    3.89467937041258*^9, 3.89467951516597*^9, {3.894679609547817*^9, 
    3.894679651553912*^9}, 3.894679681862623*^9, 3.894679755577479*^9, 
-   3.894680114895341*^9},
+   3.894680114895341*^9, 3.8946802583107443`*^9, {3.894680396436967*^9, 
+   3.894680410494855*^9}, 3.894680924751608*^9},
  CellLabel->
-  "Out[161]=",ExpressionUUID->"9766470a-a98b-4461-a138-8f405b6bfb18"]
+  "Out[169]=",ExpressionUUID->"e7371edf-a76a-4126-a61f-9a89db79e401"]
 }, Open  ]],
 
 Cell[BoxData[{
@@ -13545,7 +13550,7 @@ Cell[BoxData["2.5`"], "Output",
 }, Open  ]]
 },
 WindowSize->{1440, 847},
-WindowMargins->{{3, Automatic}, {Automatic, 121}},
+WindowMargins->{{18, Automatic}, {Automatic, 63}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 FrontEndVersion->"13.1 \:95dc\:65bc  Mac OS X x86 (64-bit) \
 (2022\:5e746\:670816\:65e5)",
@@ -14586,13 +14591,13 @@ Cell[CellGroupData[{
 Cell[478637, 13217, 156, 3, 53, "Section",ExpressionUUID->"13e701f0-ddcc-4b53-af26-f10e1e8ef017"],
 Cell[478796, 13222, 4108, 115, 136, "Input",ExpressionUUID->"de5e0420-34f2-42a2-88b2-90b0008f9f75"],
 Cell[CellGroupData[{
-Cell[482929, 13341, 5395, 142, 343, "Input",ExpressionUUID->"b96913e8-aeec-4910-93d6-41d2250c7669"],
-Cell[488327, 13485, 565, 14, 34, "Output",ExpressionUUID->"9766470a-a98b-4461-a138-8f405b6bfb18"]
+Cell[482929, 13341, 5547, 144, 343, "Input",ExpressionUUID->"b96913e8-aeec-4910-93d6-41d2250c7669"],
+Cell[488479, 13487, 711, 17, 34, "Output",ExpressionUUID->"e7371edf-a76a-4126-a61f-9a89db79e401"]
 }, Open  ]],
-Cell[488907, 13502, 723, 22, 73, "Input",ExpressionUUID->"051e842f-85e5-481b-85fb-644b41364c35"],
+Cell[489205, 13507, 723, 22, 73, "Input",ExpressionUUID->"051e842f-85e5-481b-85fb-644b41364c35"],
 Cell[CellGroupData[{
-Cell[489655, 13528, 376, 7, 30, "Input",ExpressionUUID->"8b0f8b1b-8d4d-4195-870a-ca3e7f4419c7"],
-Cell[490034, 13537, 308, 5, 34, "Output",ExpressionUUID->"f3fd0414-62fa-4011-986a-0477e09c9e06"]
+Cell[489953, 13533, 376, 7, 30, "Input",ExpressionUUID->"8b0f8b1b-8d4d-4195-870a-ca3e7f4419c7"],
+Cell[490332, 13542, 308, 5, 34, "Output",ExpressionUUID->"f3fd0414-62fa-4011-986a-0477e09c9e06"]
 }, Open  ]]
 }, Open  ]]
 }
