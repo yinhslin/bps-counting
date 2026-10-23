@@ -40,3 +40,7 @@ cohomology scan through L=18, Table I job logs, saved Cartan-image bases and
 verification records. The [matching code](https://github.com/yinhslin/bps-counting-code/tree/2510.24008-v1.0.0/papers/2510.24008) is in `bps-counting-code`.
 Both repositories use the paper release tag `2510.24008-v1.0.0`. Earlier SU(N) datasets
 remain in their existing locations.
+
+The combined code and selected data are permanently archived on Zenodo as version 1.0.0:
+[DOI: 10.5281/zenodo.23591262](https://doi.org/10.5281/zenodo.23591262).
+Please cite this version DOI when using this paper's computational companion.
