@@ -1,0 +1,779 @@
+{
+  "inventoried_on": "2026-10-23",
+  "files": 50027,
+  "bytes": 3128226010384,
+  "method": "Metadata only; no content hashes computed for the full external tree",
+  "stages": {
+    "bps_so/all/ad": {
+      "files": 0,
+      "bytes": 0,
+      "extensions": {},
+      "largest": []
+    },
+    "bps_so/all/cohomology": {
+      "files": 939,
+      "bytes": 39924,
+      "extensions": {
+        ".csv": 939
+      },
+      "largest": [
+        [
+          19962,
+          "bps_so/all/cohomology/total-so.csv"
+        ],
+        [
+          25,
+          "bps_so/all/cohomology/18_1_1_2_2_2_6_7.csv"
+        ],
+        [
+          25,
+          "bps_so/all/cohomology/18_1_1_1_2_3_6_7.csv"
+        ]
+      ]
+    },
+    "bps_so/all/cohomology_bk": {
+      "files": 208,
+      "bytes": 7798,
+      "extensions": {
+        ".csv": 208
+      },
+      "largest": [
+        [
+          3899,
+          "bps_so/all/cohomology_bk/so.csv"
+        ],
+        [
+          20,
+          "bps_so/all/cohomology_bk/13_1_2_0_1_1_4_7.csv"
+        ],
+        [
+          20,
+          "bps_so/all/cohomology_bk/13_0_1_1_2_2_6_7.csv"
+        ]
+      ]
+    },
+    "bps_so/all/count": {
+      "files": 675,
+      "bytes": 4418,
+      "extensions": {
+        ".csv": 675
+      },
+      "largest": [
+        [
+          12,
+          "bps_so/all/count/16_1_1_1_2_2_5_7.csv"
+        ],
+        [
+          12,
+          "bps_so/all/count/16_1_1_1_1_3_5_7.csv"
+        ],
+        [
+          11,
+          "bps_so/all/count/16_0_2_1_2_2_5_7.csv"
+        ]
+      ]
+    },
+    "bps_so/all/count_bk": {
+      "files": 315,
+      "bytes": 1394,
+      "extensions": {
+        ".csv": 315
+      },
+      "largest": [
+        [
+          6,
+          "bps_so/all/count_bk/8_1_1_0_0_1_3_7.csv"
+        ],
+        [
+          6,
+          "bps_so/all/count_bk/8_1_1_0_0_1_2_7.csv"
+        ],
+        [
+          6,
+          "bps_so/all/count_bk/8_1_1_0_0_1_1_7.csv"
+        ]
+      ]
+    },
+    "bps_so/all/exact": {
+      "files": 387,
+      "bytes": 196080647906,
+      "extensions": {
+        ".mx": 387
+      },
+      "largest": [
+        [
+          11671687843,
+          "bps_so/all/exact/18_0_0_3_3_3_9_7.mx"
+        ],
+        [
+          11598959925,
+          "bps_so/all/exact/18_1_1_2_2_2_8_7.mx"
+        ],
+        [
+          10370992433,
+          "bps_so/all/exact/18_1_1_2_2_2_7_7.mx"
+        ]
+      ]
+    },
+    "bps_so/all/h": {
+      "files": 0,
+      "bytes": 0,
+      "extensions": {},
+      "largest": []
+    },
+    "bps_so/all/independentexact": {
+      "files": 387,
+      "bytes": 366362851960,
+      "extensions": {
+        ".mx": 387
+      },
+      "largest": [
+        [
+          29627769304,
+          "bps_so/all/independentexact/18_0_0_3_3_3_8_7.mx"
+        ],
+        [
+          24202309204,
+          "bps_so/all/independentexact/18_0_0_3_3_3_9_7.mx"
+        ],
+        [
+          23752683038,
+          "bps_so/all/independentexact/18_1_1_2_2_2_8_7.mx"
+        ]
+      ]
+    },
+    "bps_so/all/independentgraviton": {
+      "files": 389,
+      "bytes": 307652865695,
+      "extensions": {
+        ".mx": 389
+      },
+      "largest": [
+        [
+          22425608709,
+          "bps_so/all/independentgraviton/18_0_0_3_3_3_8_7.mx"
+        ],
+        [
+          17041159141,
+          "bps_so/all/independentgraviton/18_1_1_2_2_2_8_7.mx"
+        ],
+        [
+          16923283754,
+          "bps_so/all/independentgraviton/18_0_0_3_3_3_9_7.mx"
+        ]
+      ]
+    },
+    "bps_so/all/independentoperator": {
+      "files": 387,
+      "bytes": 236708006656,
+      "extensions": {
+        ".mx": 387
+      },
+      "largest": [
+        [
+          18359913627,
+          "bps_so/all/independentoperator/18_0_0_3_3_3_9_7.mx"
+        ],
+        [
+          16383397100,
+          "bps_so/all/independentoperator/18_1_1_2_2_2_8_7.mx"
+        ],
+        [
+          15252223724,
+          "bps_so/all/independentoperator/18_0_0_3_3_3_8_7.mx"
+        ]
+      ]
+    },
+    "bps_so/all/julia": {
+      "files": 0,
+      "bytes": 0,
+      "extensions": {},
+      "largest": []
+    },
+    "bps_so/all/multigraviton": {
+      "files": 938,
+      "bytes": 100454566957,
+      "extensions": {
+        ".mx": 938
+      },
+      "largest": [
+        [
+          8532849332,
+          "bps_so/all/multigraviton/18_0_0_3_3_3_8_7.mx"
+        ],
+        [
+          6441742678,
+          "bps_so/all/multigraviton/18_0_0_2_3_4_8_7.mx"
+        ],
+        [
+          4374251573,
+          "bps_so/all/multigraviton/18_0_0_3_3_3_9_7.mx"
+        ]
+      ]
+    },
+    "bps_so/all/multitrace": {
+      "files": 1536,
+      "bytes": 359141127685,
+      "extensions": {
+        ".mx": 1536
+      },
+      "largest": [
+        [
+          25343755393,
+          "bps_so/all/multitrace/18_0_0_3_3_3_9_7.mx"
+        ],
+        [
+          17963352241,
+          "bps_so/all/multitrace/18_1_1_2_2_2_8/18_1_1_2_2_2_8_7.mx"
+        ],
+        [
+          17954495864,
+          "bps_so/all/multitrace/18_1_1_2_2_2_8_7.mx"
+        ]
+      ]
+    },
+    "bps_so/all/multitrace-bkbk": {
+      "files": 132,
+      "bytes": 33061978471,
+      "extensions": {
+        ".mx": 132
+      },
+      "largest": [
+        [
+          13506059227,
+          "bps_so/all/multitrace-bkbk/18_0_0_3_3_3_8_7.mx"
+        ],
+        [
+          6126823339,
+          "bps_so/all/multitrace-bkbk/18_0_0_3_3_3_8_7-1.mx"
+        ],
+        [
+          1886004074,
+          "bps_so/all/multitrace-bkbk/18_0_0_3_3_3_8_7-114.mx"
+        ]
+      ]
+    },
+    "bps_so/all/multitracechargelist": {
+      "files": 978,
+      "bytes": 1785512,
+      "extensions": {
+        ".mx": 978
+      },
+      "largest": [
+        [
+          540792,
+          "bps_so/all/multitracechargelist/progress.mx"
+        ],
+        [
+          5928,
+          "bps_so/all/multitracechargelist/18_1_1_2_2_2.mx"
+        ],
+        [
+          4933,
+          "bps_so/all/multitracechargelist/18_1_1_2_3_1.mx"
+        ]
+      ]
+    },
+    "bps_so/all/necklace": {
+      "files": 940,
+      "bytes": 16408765,
+      "extensions": {
+        ".mx": 940
+      },
+      "largest": [
+        [
+          742020,
+          "bps_so/all/necklace/18_1_1_2_2_2_6_7.mx"
+        ],
+        [
+          630420,
+          "bps_so/all/necklace/18_1_1_2_2_2_7_7.mx"
+        ],
+        [
+          449222,
+          "bps_so/all/necklace/18_1_1_1_2_3_6_7.mx"
+        ]
+      ]
+    },
+    "bps_so/all/reducedexact": {
+      "files": 59,
+      "bytes": 21052164767,
+      "extensions": {
+        ".mx": 59
+      },
+      "largest": [
+        [
+          20880167200,
+          "bps_so/all/reducedexact/18_1_1_2_2_2_8_7-temp.mx"
+        ],
+        [
+          3000431,
+          "bps_so/all/reducedexact/18_1_1_2_2_2_8_7-9.mx"
+        ],
+        [
+          3000431,
+          "bps_so/all/reducedexact/18_1_1_2_2_2_8_7-8.mx"
+        ]
+      ]
+    },
+    "bps_so/all/reducedgraviton": {
+      "files": 59,
+      "bytes": 172152708,
+      "extensions": {
+        ".mx": 59
+      },
+      "largest": [
+        [
+          3000434,
+          "bps_so/all/reducedgraviton/18_1_1_2_2_2_8_7-9.mx"
+        ],
+        [
+          3000434,
+          "bps_so/all/reducedgraviton/18_1_1_2_2_2_8_7-8.mx"
+        ],
+        [
+          3000434,
+          "bps_so/all/reducedgraviton/18_1_1_2_2_2_8_7-7.mx"
+        ]
+      ]
+    },
+    "bps_so/all/singlegraviton": {
+      "files": 4487,
+      "bytes": 22304047973,
+      "extensions": {
+        ".mx": 4487
+      },
+      "largest": [
+        [
+          690953083,
+          "bps_so/all/singlegraviton/18_0_0_3_3_3_8_7.mx"
+        ],
+        [
+          607699343,
+          "bps_so/all/singlegraviton/18_0_0_3_2_4_8_7.mx"
+        ],
+        [
+          606991805,
+          "bps_so/all/singlegraviton/18_0_0_2_4_3_8_7.mx"
+        ]
+      ]
+    },
+    "bps_so/all/singletrace": {
+      "files": 2197,
+      "bytes": 143460188929,
+      "extensions": {
+        ".mx": 2197
+      },
+      "largest": [
+        [
+          11427448317,
+          "bps_so/all/singletrace/18_0_0_3_3_3_9_7.mx"
+        ],
+        [
+          8820233616,
+          "bps_so/all/singletrace/18_1_1_2_2_2_8_7.mx"
+        ],
+        [
+          7776587672,
+          "bps_so/all/singletrace/18_0_0_2_3_4_9_7.mx"
+        ]
+      ]
+    },
+    "bps_so/all/singletrace-bk": {
+      "files": 10036,
+      "bytes": 117973953050,
+      "extensions": {
+        ".mx": 10036
+      },
+      "largest": [
+        [
+          7783737153,
+          "bps_so/all/singletrace-bk/18_0_0_2_3_4_9_7.mx"
+        ],
+        [
+          6284088359,
+          "bps_so/all/singletrace-bk/18_1_1_2_2_2_7_7.mx"
+        ],
+        [
+          6162374773,
+          "bps_so/all/singletrace-bk/18_0_0_3_3_3_8_7.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/ad": {
+      "files": 0,
+      "bytes": 0,
+      "extensions": {},
+      "largest": []
+    },
+    "bps_sp/all/cohomology": {
+      "files": 939,
+      "bytes": 39924,
+      "extensions": {
+        ".csv": 939
+      },
+      "largest": [
+        [
+          19962,
+          "bps_sp/all/cohomology/total-sp.csv"
+        ],
+        [
+          25,
+          "bps_sp/all/cohomology/18_1_1_2_2_2_6_6.csv"
+        ],
+        [
+          25,
+          "bps_sp/all/cohomology/18_1_1_1_2_3_6_6.csv"
+        ]
+      ]
+    },
+    "bps_sp/all/cohomology_bk": {
+      "files": 374,
+      "bytes": 10913,
+      "extensions": {
+        ".csv": 374
+      },
+      "largest": [
+        [
+          3899,
+          "bps_sp/all/cohomology_bk/cohomology/sp.csv"
+        ],
+        [
+          20,
+          "bps_sp/all/cohomology_bk/cohomology/13_1_2_0_1_1_4_6.csv"
+        ],
+        [
+          20,
+          "bps_sp/all/cohomology_bk/cohomology/13_0_1_1_2_2_6_6.csv"
+        ]
+      ]
+    },
+    "bps_sp/all/count": {
+      "files": 673,
+      "bytes": 4402,
+      "extensions": {
+        ".csv": 673
+      },
+      "largest": [
+        [
+          12,
+          "bps_sp/all/count/16_1_1_1_2_2_5_6.csv"
+        ],
+        [
+          12,
+          "bps_sp/all/count/16_1_1_1_1_3_5_6.csv"
+        ],
+        [
+          11,
+          "bps_sp/all/count/16_0_2_1_2_2_5_6.csv"
+        ]
+      ]
+    },
+    "bps_sp/all/count_bk": {
+      "files": 486,
+      "bytes": 2008,
+      "extensions": {
+        ".csv": 486
+      },
+      "largest": [
+        [
+          6,
+          "bps_sp/all/count_bk/count/13_1_2_0_1_1_4_6.csv"
+        ],
+        [
+          6,
+          "bps_sp/all/count_bk/count/13_0_1_1_2_2_5_6.csv"
+        ],
+        [
+          6,
+          "bps_sp/all/count_bk/count/13_0_1_1_2_2_4_6.csv"
+        ]
+      ]
+    },
+    "bps_sp/all/exact": {
+      "files": 387,
+      "bytes": 129058128126,
+      "extensions": {
+        ".mx": 387
+      },
+      "largest": [
+        [
+          7920209248,
+          "bps_sp/all/exact/18_1_1_2_2_2_7_6.mx"
+        ],
+        [
+          7485854005,
+          "bps_sp/all/exact/18_1_1_2_2_2_8_6.mx"
+        ],
+        [
+          6341835596,
+          "bps_sp/all/exact/18_0_0_3_3_3_8_6.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/h": {
+      "files": 0,
+      "bytes": 0,
+      "extensions": {},
+      "largest": []
+    },
+    "bps_sp/all/independentexact": {
+      "files": 387,
+      "bytes": 283307965141,
+      "extensions": {
+        ".mx": 387
+      },
+      "largest": [
+        [
+          23426165534,
+          "bps_sp/all/independentexact/18_0_0_3_3_3_8_6.mx"
+        ],
+        [
+          21150519664,
+          "bps_sp/all/independentexact/18_1_1_2_2_2_7_6.mx"
+        ],
+        [
+          20488259821,
+          "bps_sp/all/independentexact/18_1_1_2_2_2_8_6.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/independentgraviton": {
+      "files": 387,
+      "bytes": 204172506380,
+      "extensions": {
+        ".mx": 387
+      },
+      "largest": [
+        [
+          16349505096,
+          "bps_sp/all/independentgraviton/18_0_0_3_3_3_8_6.mx"
+        ],
+        [
+          14885531937,
+          "bps_sp/all/independentgraviton/18_1_1_2_2_2_7_6.mx"
+        ],
+        [
+          14319451364,
+          "bps_sp/all/independentgraviton/18_1_1_2_2_2_8_6.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/independentoperator": {
+      "files": 387,
+      "bytes": 167799534750,
+      "extensions": {
+        ".mx": 387
+      },
+      "largest": [
+        [
+          13225072050,
+          "bps_sp/all/independentoperator/18_1_1_2_2_2_8_6.mx"
+        ],
+        [
+          11530105128,
+          "bps_sp/all/independentoperator/18_0_0_3_3_3_9_6.mx"
+        ],
+        [
+          11032245253,
+          "bps_sp/all/independentoperator/18_0_0_3_3_3_8_6.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/julia": {
+      "files": 0,
+      "bytes": 0,
+      "extensions": {},
+      "largest": []
+    },
+    "bps_sp/all/multigraviton": {
+      "files": 938,
+      "bytes": 61168821075,
+      "extensions": {
+        ".mx": 938
+      },
+      "largest": [
+        [
+          4622679602,
+          "bps_sp/all/multigraviton/18_0_0_3_3_3_8_6.mx"
+        ],
+        [
+          3434225757,
+          "bps_sp/all/multigraviton/18_0_0_2_3_4_8_6.mx"
+        ],
+        [
+          3171885531,
+          "bps_sp/all/multigraviton/18_1_1_2_2_2_7_6.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/multitrace": {
+      "files": 938,
+      "bytes": 189192217659,
+      "extensions": {
+        ".mx": 938
+      },
+      "largest": [
+        [
+          14100789790,
+          "bps_sp/all/multitrace/18_0_0_3_3_3_9_6.mx"
+        ],
+        [
+          11952095904,
+          "bps_sp/all/multitrace/18_1_1_2_2_2_8_6.mx"
+        ],
+        [
+          9285108820,
+          "bps_sp/all/multitrace/18_1_1_2_2_2_7_6.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/multitracechargelist": {
+      "files": 978,
+      "bytes": 1786319,
+      "extensions": {
+        ".mx": 978
+      },
+      "largest": [
+        [
+          541772,
+          "bps_sp/all/multitracechargelist/progress.mx"
+        ],
+        [
+          5925,
+          "bps_sp/all/multitracechargelist/18_1_1_2_2_2.mx"
+        ],
+        [
+          4938,
+          "bps_sp/all/multitracechargelist/18_1_1_2_1_3.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/necklace": {
+      "files": 938,
+      "bytes": 16401451,
+      "extensions": {
+        ".mx": 938
+      },
+      "largest": [
+        [
+          742020,
+          "bps_sp/all/necklace/18_1_1_2_2_2_6_6.mx"
+        ],
+        [
+          630420,
+          "bps_sp/all/necklace/18_1_1_2_2_2_7_6.mx"
+        ],
+        [
+          449222,
+          "bps_sp/all/necklace/18_1_1_1_2_3_6_6.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/reducedexact": {
+      "files": 28,
+      "bytes": 19214732941,
+      "extensions": {
+        ".mx": 28
+      },
+      "largest": [
+        [
+          19133795392,
+          "bps_sp/all/reducedexact/18_1_1_2_2_2_8_6-temp.mx"
+        ],
+        [
+          3000431,
+          "bps_sp/all/reducedexact/18_1_1_2_2_2_8_6-9.mx"
+        ],
+        [
+          3000431,
+          "bps_sp/all/reducedexact/18_1_1_2_2_2_8_6-8.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/reducedgraviton": {
+      "files": 28,
+      "bytes": 81017741,
+      "extensions": {
+        ".mx": 28
+      },
+      "largest": [
+        [
+          3000434,
+          "bps_sp/all/reducedgraviton/18_1_1_2_2_2_8_6-9.mx"
+        ],
+        [
+          3000434,
+          "bps_sp/all/reducedgraviton/18_1_1_2_2_2_8_6-8.mx"
+        ],
+        [
+          3000434,
+          "bps_sp/all/reducedgraviton/18_1_1_2_2_2_8_6-7.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/singlegraviton": {
+      "files": 4500,
+      "bytes": 11814584226,
+      "extensions": {
+        ".mx": 4500
+      },
+      "largest": [
+        [
+          312197982,
+          "bps_sp/all/singlegraviton/18_0_0_3_3_3_8_6.mx"
+        ],
+        [
+          266692110,
+          "bps_sp/all/singlegraviton/18_0_0_2_4_3_8_6.mx"
+        ],
+        [
+          263902278,
+          "bps_sp/all/singlegraviton/18_0_0_2_3_4_8_6.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/singletrace": {
+      "files": 4840,
+      "bytes": 106804335526,
+      "extensions": {
+        ".mx": 4840
+      },
+      "largest": [
+        [
+          7693165125,
+          "bps_sp/all/singletrace/18_0_0_3_3_3_9_6.mx"
+        ],
+        [
+          6641263578,
+          "bps_sp/all/singletrace/18_1_1_2_2_2_8_6.mx"
+        ],
+        [
+          5041796588,
+          "bps_sp/all/singletrace/18_0_0_2_3_4_9_6.mx"
+        ]
+      ]
+    },
+    "bps_sp/all/singletrace-bk": {
+      "files": 7770,
+      "bytes": 51151121234,
+      "extensions": {
+        ".mx": 7770
+      },
+      "largest": [
+        [
+          4998878356,
+          "bps_sp/all/singletrace-bk/18_1_1_2_2_2_7_6.mx"
+        ],
+        [
+          4660955174,
+          "bps_sp/all/singletrace-bk/18_0_0_3_3_3_8_6.mx"
+        ],
+        [
+          1683543163,
+          "bps_sp/all/singletrace-bk/18_1_1_2_2_2_6_6.mx"
+        ]
+      ]
+    }
+  }
+}

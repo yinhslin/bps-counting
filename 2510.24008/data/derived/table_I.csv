@@ -1,0 +1,5 @@
+group,level,nz1,nz2,nt1,nt2,nt3,degree,all,nonclosed,exact,monotone,fortuitous,cohomology,source_log
+so,18,0,0,3,3,3,8,903,220,559,123,1,124,cluster/cohomologyC_N_so7_l_18_i_12_d_8-10655395.out.txt
+sp,18,0,0,3,3,3,8,903,221,559,123,0,123,cluster/cohomologyC_N_sp6_l_18_i_12_d_8-10655397.out.txt
+so,18,1,1,2,2,2,8,826,0,741,85,0,85,cluster/cohomologyC_N_so7_l_18_i_30_d_8-10866297.out.txt
+sp,18,1,1,2,2,2,8,825,0,741,84,0,84,cluster/cohomologyC_N_sp6_l_18_i_30_d_8-10825172.out.txt

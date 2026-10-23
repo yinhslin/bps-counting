@@ -1,0 +1,86 @@
+[
+  {
+    "group": "so",
+    "charges": [
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "degree": 8,
+    "raw_log": "cluster/cohomologyC_N_so7_l_18_i_12_d_8-10655395.out.txt",
+    "source_sha256": "afd5bf65dd7458017bc82e40a22971c9962562620fe04dbd98e46bd369901239",
+    "values": {
+      "all": 903,
+      "exact": 559,
+      "nonclosed": 220,
+      "grav": 682,
+      "cohomology": 124,
+      "graviton cohomology": 123
+    }
+  },
+  {
+    "group": "sp",
+    "charges": [
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "degree": 8,
+    "raw_log": "cluster/cohomologyC_N_sp6_l_18_i_12_d_8-10655397.out.txt",
+    "source_sha256": "548d8a39da59dcffcfeb4151297ee4adbbaa9976ae4ff05059a1e270b4c4d7df",
+    "values": {
+      "all": 903,
+      "exact": 559,
+      "nonclosed": 221,
+      "grav": 682,
+      "cohomology": 123,
+      "graviton cohomology": 123
+    }
+  },
+  {
+    "group": "so",
+    "charges": [
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "degree": 8,
+    "raw_log": "cluster/cohomologyC_N_so7_l_18_i_30_d_8-10866297.out.txt",
+    "source_sha256": "0c4cc84b5c652dbb1d7293e790533ee8c2c61c703b13c4d7c6b073f0e8d5a688",
+    "values": {
+      "all": 826,
+      "exact": 741,
+      "nonclosed": 0,
+      "grav": 826,
+      "cohomology": 85,
+      "graviton cohomology": 85
+    }
+  },
+  {
+    "group": "sp",
+    "charges": [
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "degree": 8,
+    "raw_log": "cluster/cohomologyC_N_sp6_l_18_i_30_d_8-10825172.out.txt",
+    "source_sha256": "2b1d445c425422a8a1be76125cfec1f8626d2dc181a09a4a1cfa2917f8a4852e",
+    "values": {
+      "all": 825,
+      "exact": 741,
+      "nonclosed": 0,
+      "grav": 825,
+      "cohomology": 84,
+      "graviton cohomology": 84
+    }
+  }
+]

@@ -1,0 +1,12 @@
+
+
+BEGIN cohomologyC
+
+level 18, charges 12/39: {0, 0, 3, 3, 3}, degree 8/9
+all: 903
+exact: 559
+nonclosed: 221
+grav: 682
+cohomology: 123
+graviton cohomology: 123
+259.952219

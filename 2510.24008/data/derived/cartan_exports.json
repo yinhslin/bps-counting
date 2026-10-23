@@ -1,0 +1,42 @@
+[
+	{
+		"group":"so",
+		"N":7,
+		"charges":[
+			1,
+			1,
+			2,
+			2,
+			2
+		],
+		"degree":8,
+		"source":"bps_so\/all\/reducedgraviton\/18_1_1_2_2_2_8_7.mx",
+		"source_sha256":"5d7ce2d1cb6384cfdb4328463456db63071977ccf211bcc57e398fb2f7c0078f",
+		"rows":84,
+		"columns":492,
+		"nonzero_entries":3015,
+		"exact_stored_matrix_rank":84,
+		"number_representation":"Exact rational values of stored coefficients; Rationalize[x,0]",
+		"wolfram_version":"14.2.1 for Mac OS X ARM (64-bit) (March 16, 2025)"
+	},
+	{
+		"group":"sp",
+		"N":6,
+		"charges":[
+			1,
+			1,
+			2,
+			2,
+			2
+		],
+		"degree":8,
+		"source":"bps_sp\/all\/reducedgraviton\/18_1_1_2_2_2_8_6.mx",
+		"source_sha256":"ca24462f204fabb8a5ac555f2a8f3a414f60269700c1dfdb23949c1e1b2120d3",
+		"rows":84,
+		"columns":492,
+		"nonzero_entries":3015,
+		"exact_stored_matrix_rank":84,
+		"number_representation":"Exact rational values of stored coefficients; Rationalize[x,0]",
+		"wolfram_version":"14.2.1 for Mac OS X ARM (64-bit) (March 16, 2025)"
+	}
+]

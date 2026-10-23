@@ -1,0 +1,12 @@
+
+
+BEGIN cohomologyC
+
+level 18, charges 30/39: {1, 1, 2, 2, 2}, degree 8/8
+all: 825
+exact: 741
+nonclosed: 0
+grav: 825
+cohomology: 84
+graviton cohomology: 84
+208.867775

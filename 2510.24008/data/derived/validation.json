@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "raw_files_sha256_verified": 3232,
+  "expected_sectors_per_group": 938,
+  "scan": {
+    "so": {
+      "aggregate_sectors": 938,
+      "individual_sector_files": 937,
+      "rows_cross_checked_with_counts": 551,
+      "fortuitous_sectors": [
+        [
+          18,
+          0,
+          0,
+          3,
+          3,
+          3,
+          8,
+          7,
+          124,
+          123
+        ]
+      ]
+    },
+    "sp": {
+      "aggregate_sectors": 938,
+      "individual_sector_files": 938,
+      "rows_cross_checked_with_counts": 551,
+      "fortuitous_sectors": []
+    }
+  },
+  "differences": [
+    {
+      "sector": [
+        18,
+        0,
+        0,
+        3,
+        3,
+        3,
+        8
+      ],
+      "so": [
+        124,
+        123
+      ],
+      "sp": [
+        123,
+        123
+      ]
+    },
+    {
+      "sector": [
+        18,
+        1,
+        1,
+        2,
+        2,
+        2,
+        8
+      ],
+      "so": [
+        85,
+        85
+      ],
+      "sp": [
+        84,
+        84
+      ]
+    }
+  ],
+  "recovered_aggregate_record": [
+    {
+      "group": "so",
+      "sector": [
+        14,
+        0,
+        2,
+        1,
+        1,
+        2,
+        5
+      ],
+      "cohomology": 0,
+      "monotone": 0,
+      "evidence": [
+        "bps_so/all/cohomology/14_0_2_1_1_2_5_7-bk.csv",
+        "bps_so/all/cohomology/total-so.csv"
+      ],
+      "method": "Aggregate row agrees with backup and consecutive-degree count formula"
+    }
+  ],
+  "cartan": [
+    {
+      "group": "so",
+      "exact_stored_matrix_rank": 84
+    },
+    {
+      "group": "sp",
+      "exact_stored_matrix_rank": 84
+    }
+  ],
+  "full_q_complex_recomputed": false,
+  "table_I_all_exact_nonclosed_basis_dimensions_reloaded": false,
+  "table_I_counts_cross_checked_with_cluster_logs": true,
+  "scope": "Checks supplied CSVs and exact rank of stored Cartan-image bases; not an independent reproduction of the large calculation"
+}
